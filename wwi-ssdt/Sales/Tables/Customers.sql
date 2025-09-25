@@ -236,3 +236,4 @@ EXECUTE sp_addextendedproperty @name = N'Description', @value = 'Second postal a
 GO
 EXECUTE sp_addextendedproperty @name = N'Description', @value = 'Postal code for the customer when sending by mail', @level0type = N'SCHEMA', @level0name = N'Sales', @level1type = N'TABLE', @level1name = N'Customers', @level2type = N'COLUMN', @level2name = N'PostalPostalCode';
 
+Go
